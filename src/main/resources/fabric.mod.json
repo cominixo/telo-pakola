@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "pakola",
+  "version": "1.0",
+  "name": "pakola",
+  "description": "",
+  "authors": [],
+  "contact": {
+    "repo": "https://github.com/cominixo/telo-pakola"
+  },
+  "license": "unlicense",
+  "icon": "assets/telo-pakola/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "jan.komi.telopakola.Pakola"
+    ]
+  },
+  "depends": {
+    "fabricloader": "*",
+    "fabric": "*",
+    "minecraft": ">=1.19.2"
+  }
+}
